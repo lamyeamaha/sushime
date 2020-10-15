@@ -1,0 +1,366 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /*header start*/
+    .menu ul li a{
+    	font-size: 18px;
+    }
+    /*header end*/
+    /*banner start*/
+    .banner{
+    	background-position: center;
+    }
+    .b_content {
+    	margin-top: 48px;
+    	margin-bottom: 48px;
+    }
+    .b_content h1 {
+    	font-size: 53px;
+    	margin-bottom: 5px;
+    }
+    .b_content p {
+    	font-size: 18px;
+    	line-height: 28px;
+    }
+    .b_content button {
+    	width: 167px;
+    	height: 52px;
+    	font-size: 18px;
+    	margin-top: 5px;
+    }
+
+    /*banner end*/
+    /*pop_menu start*/
+    .pop_menu {
+        padding: 55px 0 33px 0;
+    }
+    .c_title h1 {
+        font-size: 30px;
+    }
+    .c_title p {
+        font-size: 18px;
+        margin: 12px 0 25px 0;
+        line-height: 25px;
+    }
+    .single_item p {
+        margin-bottom: 22px;
+    }
+    /*pop_menu end*/
+    /*pop_menu start*/
+    .pop_menu {
+        padding: 55px 0 33px 0;
+    }
+    .c_title h1 {
+        font-size: 35px;
+    }
+    .c_title p {
+        font-size: 19px;
+        margin: 14px 0 25px 0;
+        line-height: 25px;
+    }
+    .single_item {
+        margin-bottom: 40px;
+    }
+    .single_item p {
+        margin-bottom: 22px;
+    }
+    /*pop_menu end*/
+    /*packages start*/
+    .packages{
+        padding: 50px 0 50px 0;
+    }
+    .packages_pic {
+        margin-top: 0;
+    }
+    .packages_pic img{
+        width: 85%;
+    }
+    .center{
+        text-align: center;
+    }
+    .packages_content {
+        margin-top: 22px;
+    }
+    .packages_content h1 {
+        font-size: 32px;
+    }
+    .packages_content p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .custom_button1 {
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    /*packages end*/
+    /*statistics start*/
+    .statistics{
+        padding: 55px 0 33px 0;
+    }
+    .single_item img {
+        width: 55%;
+    }
+    /*statistics end*/
+    /*seasonal_menu start*/
+    .seasonal_menu{
+        padding: 50px 0 50px 0;
+    }
+    /*seasonal_menu end*/
+    /*quote start*/
+    .quote_content{
+        padding: 50px 0 50px;
+    }
+    .q_content blockquote {
+        font-size: 18px;
+    }
+    .q_content h1 {
+        font-size: 31px;
+    }
+    /*quote end*/
+    /*subscribe start*/
+    .f_email{
+        padding-right: 12px;
+    }
+    .f_submit{
+        width:100%;
+        margin-left: 0;
+
+    }
+    .f_submit:hover{
+        transform: scale(1,1);
+    }
+    /*subscribe end*/
+    /*footer start*/
+    footer{
+        padding: 50px 0 50px;
+    }
+    .social_icon{
+        font-size:22px;
+    }
+    .address{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .f_1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .custom_f_1{
+        margin-bottom: 0;
+    }
+    /*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*banner start*/
+	.b_content {
+		margin-top: 65px;
+		margin-bottom: 65px;
+	}
+	.b_content h1 {
+		font-size: 68px;
+		margin-bottom: 26px;
+	}
+	.b_content p {
+		font-size: 23px;
+	}
+	.b_content button {
+		width: 225px;
+		font-size: 20px;
+		margin-top: 14px;
+	}
+    /*banner end*/
+    /*pop_menu start*/
+    .pop_menu {
+        padding: 55px 0 33px 0;
+    }
+    .c_title h1 {
+        font-size: 35px;
+    }
+    .c_title p {
+        font-size: 19px;
+        margin: 14px 0 25px 0;
+        line-height: 25px;
+    }
+    .single_item {
+        margin-bottom: 40px;
+    }
+    .single_item p {
+        margin-bottom: 22px;
+    }
+    /*pop_menu end*/
+    /*packages start*/
+    .packages{
+        padding: 55px 0 55px 0;
+    }
+    .packages_pic {
+        margin-top: 0;
+    }
+    .packages_pic img{
+        width:60%;
+    }
+    .center{
+        text-align: center;
+    }
+    .packages_content {
+        margin-top: 22px;
+    }
+    .packages_content h1 {
+        font-size: 38px;
+    }
+    .packages_content p {
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .custom_button1 {
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    /*packages end*/
+    /*statistics start*/
+    .statistics{
+        padding: 55px 0 33px 0;
+    }
+    .single_item img {
+        width: 50%;
+    }
+    /*statistics end*/
+    /*seasonal_menu start*/
+    .seasonal_menu{
+        padding: 55px 0 55px 0;
+    }
+    /*seasonal_menu end*/
+    /*quote start*/
+    .q_content blockquote {
+        font-size: 24px;
+    }
+    /*quote end*/
+    /*footer start*/
+    .social_icon{
+        font-size:25px;
+    }
+    .address{
+        text-align: center;
+    }
+    .f_1{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .custom_f_1{
+        margin-bottom: 0;
+    }
+    /*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*banner start*/
+    .b_content {
+    	margin-top: 85px;
+    	margin-bottom: 85px;
+    }
+    .b_content h1 {
+    	font-size: 75px;
+    	margin-bottom: 16px;
+    }
+    .b_content p {
+    	font-size: 23px;
+    }
+    .b_content button {
+    	width: 213px;
+    	font-size: 20px;
+    	margin-top: 12px;
+    }
+    /*banner end*/
+    /*pop_menu start*/
+    .pop_menu{
+        padding: 75px 0 75px 0;
+    }
+    .c_title h1 {
+        font-size: 40px;
+    }
+    .c_title p {
+        font-size: 21px;
+        margin: 15px 0 25px 0;
+        line-height: 29px;
+        letter-spacing: -1px;
+    }   
+    .single_item h2 {
+        font-size: 26px;
+        margin-top: 18px;
+        margin-bottom: 7px;
+    }
+    /*pop_menu end*/
+    /*packages start*/
+    .packages{
+        padding: 75px 0 75px 0;
+    }
+    .packages_pic {
+        margin-top: 52px;
+    }
+    .custom_button1 {
+        width: 170px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 12px;
+    }
+    .packages_content {
+        margin-top: 22px;
+    }
+    .packages_content h1 {
+        font-size: 38px;
+    }
+    .packages_content p {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    /*packages end*/
+    /*statistics start*/
+    .statistics{
+        padding: 75px 0 75px 0;
+    }
+    /*statistics end*/
+    /*quote start*/
+    .q_content blockquote {
+        font-size: 25px;
+    }
+    /*quote end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/*banner start*/
+	.b_content {
+		margin-top: 90px;
+		margin-bottom: 90px;
+	}
+	.b_content h1 {
+		font-size: 75px;
+		margin-bottom: 20px;
+	}
+	.b_content p {
+		font-size: 23px;
+	}
+	.b_content button {
+		width: 211px;
+		height: 55px;
+		font-size: 20px;
+		margin-top: 26px;
+	}
+	/*banner end*/
+    /*packages start*/
+    .packages_pic {
+        margin-top: 55px;
+    }
+    /*packages end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
